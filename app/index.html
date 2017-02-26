@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UCAD test layout</title>
+
+<!-- build:css css/vendor.min.css -->
+	<!--Между этими тегами подключаем css файлы которые скомпилируются в файл vendor.min.css-->
+<!-- endbuild -->
+
+<!-- build:css css/main.min.css -->
+	<!--Css файлы, подключенные между этими тегами скомпилируются в файл main.min.css-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+<!-- endbuild -->
+</head>
+<body>
+	<div class="container-fluid">
+	
+		<header>
+      <nav class="navbar navbar-default" role="navigation">
+    	  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header ">
+			      <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#navbar-brand-centered">
+			        <span class="sr-only">Menu</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <div class="navbar-brand navbar-brand-centered "><a href="#"><img src="img/logo-black.png" alt="logo" class="header-logo"></a></div>
+			    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+			      <ul class="nav navbar-nav">
+			        <li><a href="#">Pakketilbud</a></li>
+			        <li><a href="#">Fiberbredbånd</a></li>
+			        <li><a href="#">TV</a></li>
+			        <li><a href="#">Telefoni</a></li>
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right" aria-labelledby="dropdownMenuDivider">
+			        <li role="separator" class="divider"></li>
+			        <li><a href="#" data-toggle="modal" data-target="#modal-fullscreen-privat">Privat</a></li>
+			        <li><a href="#" data-toggle="modal" data-target="#modal-fullscreen-forening">Forening</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+    </header>
+		<!-- MODAL START -->
+		<div class="modal modal-fullscreen fade" id="modal-fullscreen-privat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close pull-left" data-dismiss="modal">
+			        <span class="glyphicon glyphicon-minus"></span>
+			        <span class="glyphicon glyphicon-minus"></span>
+			        <span class="sr-only">Close</span>
+		        </button>
+		        <a href="#" class="pull-right modal-header-link">Privat?</a>
+		      </div>
+		      <div class="modal-body">
+		      	<ul class="modal-links-section">
+		      		<a href="#" class="modal-links-header">Forside</a>
+		      	</ul>
+		        <ul class="modal-links-section">
+		        	<a href="#" class="modal-links-header">TV</a>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">TV-pakker</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Waoo! Bio</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">TV-arkiv</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">TV-bokse</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Radio</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Web TV</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Kanalændringer</a></li>
+		        </ul>
+		        <ul class="modal-links-section">
+		        	<a href="#" class="modal-links-header">Fiberbredbånd</a>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Hastigheder</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Hastighedsmåler</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Up- og download</a></li>
+		        </ul>
+		        <ul class="modal-links-section">
+		        	<a href="#" class="modal-links-header">Telefoni</a>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Fibernet Telefoni</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Mobil Telefoni</a></li>
+		        </ul>
+		        <ul class="modal-links-section">
+		        	<a href="#" class="modal-links-header">Om Waoo! FOrening</a>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Beboer</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Forening</a></li>
+		        </ul>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal modal-fullscreen fade" id="modal-fullscreen-forening" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close pull-left" data-dismiss="modal">
+			        <span class="glyphicon glyphicon-minus"></span>
+			        <span class="glyphicon glyphicon-minus"></span>
+			        <span class="sr-only">Close</span>
+		        </button>
+		        <a href="#" class="pull-right modal-header-link">Forening?</a>
+		      </div>
+		      <div class="modal-body">
+		      	<ul class="modal-links-section">
+		      		<a href="#" class="modal-links-header">Forside</a>
+		      	</ul>
+		      	<ul class="modal-links-section">
+		      		<a href="#" class="modal-links-header">Pakketilbud</a>
+		      	</ul>
+		        <ul class="modal-links-section">
+		        	<a href="#" class="modal-links-header">Fiberbredbånd</a>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Hastigheder</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Prisindeks</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Up- og download</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Streaming af TV</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Fiberfordele</a></li>
+		        </ul>
+		        <ul class="modal-links-section">
+		        	<a href="#" class="modal-links-header">TV</a>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">TV-pakker</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Netflix</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">TV2 Play</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Viaplay</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Web TV</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Waoo! Bio</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">TV-bokse</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Radio</a></li>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Kanalændringer</a></li>
+		        </ul>
+		        <ul class="modal-links-section">
+		        	<a href="#" class="modal-links-header">Telefoni</a>
+		        	<li class="modal-links-element"><a href="#" class="modal-link">Fibernet Telefoni</a></li>
+		        </ul>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- MODAL END -->
+		<main>
+			<div class="search-block">
+				<div class="container">
+					<section class="text-center">
+						<h1 class="section-header">SEARCH YOUR PLACE</h1>
+						<form class="search-form form-group">
+							<input type="text" placeholder="Enter post number or city">
+							<button type="submit" >TJEK ADRESSE</button>
+						</form>
+					</section>
+				</div>
+			</div>
+			<br><br><br>
+		</main>
+
+		<footer>
+			<div class="container">
+			<!-- <div class="row"> -->
+				<section class="footer-nav-section col-xs-12 col-sm-3">
+					<p class="footer-nav-header">Kundeservice</p>
+					<ul class="footer-links-list">
+						<li class="footer-links-item"><a href="#" class="footer-link">Spørgsmål og svar</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Vejledninger og vilkår</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Support</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Driftsinfo</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Kanalændringer</a></li>
+					</ul>
+				</section>
+				<section class="footer-nav-section col-xs-12 col-sm-3">
+					<p class="footer-nav-header">om waoo</p>
+					<ul class="footer-links-list">
+						<li class="footer-links-item"><a href="#" class="footer-link">Presse</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Organisation</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Ledelse</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Job</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Persondata & Cookies</a></li>
+					</ul>
+				</section>
+				<section class="footer-nav-section col-xs-12 col-sm-3">
+					<p class="footer-nav-header">Produkter</p>
+					<ul class="footer-links-list">
+						<li class="footer-links-item"><a href="#" class="footer-link">Waoo pakker</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Fiberbredbånd</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">TV</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Telefoni</a></li>
+						<li class="footer-links-item"><a href="#" class="footer-link">Vejledninger og vilkår</a></li>
+					</ul>
+				</section>
+				<section class="footer-nav-section col-xs-12 col-sm-3">
+					<p class="footer-nav-header">kontakt os</p>
+				</section>
+			<!-- </div> -->
+			<!-- <div class="row"> -->
+			<div class="copy col-xs-12">
+				
+				<div class="copy-text">
+					Copyright &copy 2016 Waoo. Alle rettigheder forbeholdes. <br>
+					Læs vores cookies policy
+				</div>
+				<div class="footer-logo">
+					<a href="#"><img src="img/logo-white.png" alt="logo"></a>
+				</div>
+			</div>
+			<!-- </div> -->
+			</div>
+		</footer>
+	</div>
+
+<!-- build:js js/vendor.min.js -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<!-- endbuild -->
+
+<!-- build:js js/main.min.js -->
+	<!--Js файлы, подключенные между этими тегами скомпилируются в файл main.min.js-->
+	
+	<script src="js/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>
