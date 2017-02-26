@@ -1,8 +1,16 @@
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "NotoSans";
+    src: url("../fonts/NotoSansRegular.ttf") format("truetype");
+}
 * {
   outline: none;
 }
 body {
-  font-family: 'Myriad Pro';
+  font-family: 'MyriadPro';
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
 }
@@ -102,7 +110,7 @@ form.search-form {
 }
 .search-form button {
   background-color: #ff5500;
-  font-family: 'Noto Sans';
+  font-family: 'NotoSans';
   font-weight: bold;
   font-size: 18px;
   color: #fff;
